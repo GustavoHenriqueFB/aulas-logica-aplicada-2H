@@ -6,14 +6,15 @@ public class Pessoa extends Animal {
     public void falar(){
             System.out.println("falei");
     }
-    public String falar(String texto){
+    public String falar(String texto) {
         return texto;
+    }
     // sobrescrita do método
         public void comer(){
             System.out.println("pessoa comeu");
         }
     }
 
-}
+
 
 
